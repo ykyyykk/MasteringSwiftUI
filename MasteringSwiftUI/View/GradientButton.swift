@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ButtonAAA: View {
+struct GradientButton: View {
     var body: some View {
         VStack {
             Button {
@@ -49,5 +49,5 @@ struct GradientBackgroundStyle: ButtonStyle {
 }
 
 #Preview {
-    ButtonAAA()
+    GradientButton()
 }
